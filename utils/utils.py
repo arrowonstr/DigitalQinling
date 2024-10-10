@@ -276,7 +276,6 @@ def parse_hdr_file(filename):
         , 1001.81]
 
     return wavelength
-
 def show_result(result):
     plt.imshow(result, cmap='hot')
 

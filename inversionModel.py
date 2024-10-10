@@ -5,7 +5,6 @@ import numpy as np
 from scipy.optimize import curve_fit
 
 from utils.utils import parse_hdr_file,show_result
-
 class BaseInversionModel(ABC):
     """ 反演算法的父类
                Attributes:
